@@ -1,0 +1,5 @@
+## Interface: 60000
+## Title: Vignettes Tracker
+## Notes: Track which vignettes have been completed in Warlords of Draenor
+## Author: Kaydeethree
+VignettesTracker.lua
