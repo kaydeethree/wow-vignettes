@@ -27,7 +27,7 @@ local function go(t)
 end
 
 ffr = {
--- unknown npcs
+-- npcs
 {32911, 'Ancient Clefthoof', },
 {32913, 'Arranok\'s Ritual', },
 {34519, 'Brotoculus', },
@@ -41,7 +41,32 @@ ffr = {
 {34839, 'Skog B', },
 {34522, 'Ug\'lok the Frozen', },
 
--- unknown objects
+{34497, 'Breathless', 27.8,50.3},
+{32941, 'Canyon Icemother', 33.5,23.1},
+{34843, 'Chillfang', 41.4,68.3},
+{33014, 'Cindermaw', 41.8,46.6},
+{34129, 'Coldstomp the Griever', 26,55},
+{34131, 'Coldtusk', 54.2,67.7},
+{34477, 'Cyclonic Fury', 67,78},
+{33011, 'Frostwolf Veteran\'s Keepsake', 45,50},
+{34130, 'Giantstalker Hunting Party', 58,32},
+{34132, 'Scout Goreseeker', 76.5,63.3},
+{33512, 'Gorg\'ak', 72.5,22.8},
+{38425, 'Gruuk', 51.8,65.1},
+{34708, 'Jehil the Climber', 61.8,26.6},
+{32918, 'Giant-Slayer Kul', 54.7,22.3},
+{33938, 'Primalist Mur\'og', 37.0,33.8},
+{34470, 'Pale Fishmonger', 28.3,66.6},
+{33843, 'Broodmother Reeg\'ak', 64,32},
+{34133, 'The Beater', 26.9,31.9},
+{34361, 'The Bone Crawler', 70,30},
+{33440, 'Time-warped Brute Falling 1', 30,51},
+{33497, 'Time-warped Brute Falling 2', 30,51},
+{33439, 'Time-warped Brute Running', 30,51},
+{33438, 'Time-warped Primalist', 30,51},
+{34559, 'Yaga the Scarred', 40.6,27.6},
+
+-- objects
 {33498, 'Bladespire Chef', },
 {33447, 'Bladespire Craftsman', },
 {33989, 'Blasting Charges - Cave A Cache', },
@@ -92,34 +117,6 @@ ffr = {
 {33649, 'Torched Iron Horde Scout', },
 {36053, 'Unused Wood Pile', },
 
---[[ known npcs
-{34497, 'Breathless', 27.8,50.3},
-{32941, 'Canyon Icemother', 33.5,23.1},
-{34843, 'Chillfang', 41.4,68.3},
-{33014, 'Cindermaw', 41.8,46.6},
-{34129, 'Coldstomp the Griever', 26,55},
-{34131, 'Coldtusk', 54.2,67.7},
-{34477, 'Cyclonic Fury', 67,78},
-{33011, 'Frostwolf Veteran\'s Keepsake', 45,50},
-{34130, 'Giantstalker Hunting Party', 58,32},
-{34132, 'Scout Goreseeker', 76.5,63.3},
-{33512, 'Gorg\'ak', 72.5,22.8},
-{38425, 'Gruuk', 51.8,65.1},
-{34708, 'Jehil the Climber', 61.8,26.6},
-{32918, 'Giant-Slayer Kul', 54.7,22.3},
-{33938, 'Primalist Mur\'og', 37.0,33.8},
-{34470, 'Pale Fishmonger', 28.3,66.6},
-{33843, 'Broodmother Reeg\'ak', 64,32},
-{34133, 'The Beater', 26.9,31.9},
-{34361, 'The Bone Crawler', 70,30},
-{33440, 'Time-warped Brute Falling 1', 30,51},
-{33497, 'Time-warped Brute Falling 2', 30,51},
-{33439, 'Time-warped Brute Running', 30,51},
-{33438, 'Time-warped Primalist', 30,51},
-{34559, 'Yaga the Scarred', 40.6,27.6},
---]]
-
--- known objects
 {33916, 'Arena Master\'s Warhorn', 23.2,25.0},
 {34520, 'Burning Pearl', 42.4,19.6},
 {33940, 'Crag-Leaper\'s Cache', 42.7,31.8},
@@ -142,19 +139,11 @@ ffr = {
 {33942, 'Supply Dump', 16.1,49.7},
 {32803, 'Thunderlord Cache', 34.2,23.5},
 {33505, 'Wiggling Egg', 64.4,65.8},
---]]
+
 }
 
 smv = {
--- unknown npcs
-{33057, 'Rotbelcher', },
-{36568, 'Malgosh Shadowkeeper', },
-{35732, 'Shinri', },
-{36880, 'Sneevel', },
-{36431, 'Soul-Twister Torek', },
-{35847, 'Voidseer Kalurg', },
-
---[[ known npcs
+-- npcs
 {33061, 'Amaukwa', 37,35},
 {35731, 'Ba\'ruun', 52.8,16.5},
 {35281, 'Bahameye', 29,5},
@@ -165,26 +154,30 @@ smv = {
 {35448, 'Darkmaster Go\'vid', 40,80},
 {35558, 'Hypnocroak', 39,46},
 {35909, 'Insha\'tar', 57.4,48.6},
+{35847, 'Voidseer Kalurg', },
 {33043, 'Killmaw', 40.8,44.6},
 {33039, 'Ku\'targ\ the Voidseer', 32.5,35.1},
 {33642, 'Mother Om\'ra', 44.0,57.7},
 {33055, 'Podling Leafreader', 37.7,14.3},
 {35553, 'Rai\'vosh ',48.8,22.7},
 {34068, 'Rockhoof', 52.7,50.8},
+{33057, 'Rotbelcher', },
+{36568, 'Malgosh Shadowkeeper', },
+{35732, 'Shinri', },
+{36880, 'Sneevel', },
 {35523, 'Morva Soultwister', 38.6,70.4},
 {35906, 'Mad "King" Sporeon', 45.0,20.8},
+{36431, 'Soul-Twister Torek', },
 {35688, 'Enavra Varandi', 67.9,63.9},
 {33640, 'Veloss', 21.7,20.8},
 {33643, 'Venomshade', 54.8,70.2},
 {33389, 'Yggdrel', 48,66},
---]]
 
---[[ known events
+-- events
 {33038, 'Embaari Defense Crystal', 42.9,40.3},
 {34743, 'The Crystal Blade of Torvath', 61.7,67.9},
---]]
 
---[[ known objects
+-- objects
 {35581, 'Alchemist\'s Satchel', 54.9,45.0},
 {35584, 'Ancestral Greataxe', 52.8,48.4},
 {33869, 'Armored Elekk Tusk', 41.4,27.9},
@@ -228,7 +221,8 @@ smv = {
 }
 
 grg = {
--- unknown npcs
+-- npcs
+{35335, 'Bashiok', 40.2,79.0},
 {34197, 'Bloodbloom the Colossus', },
 {35996, 'Depthroot', },
 {34231, 'Giant Snake', },
@@ -243,8 +237,8 @@ grg = {
 {36858, 'Steeltusk', },
 {36837, 'Stompalupagus', },
 {34168, 'Stormwave', },
+{36794, 'Sylldross', 63,62},
 {34191, 'Un\'glok Blackfinger', },
---]]
 
 -- arena-only treasures
 {36710, 'arena1', },
@@ -272,7 +266,6 @@ grg = {
 {36784, 'arena23', },
 {36787, 'arena24', },
 {36789, 'arena25', },
---]]
 
 -- mill-only treasures
 {35965, 'mill3', },
@@ -295,7 +288,13 @@ grg = {
 {36717, 'mill23', },
 {36718, 'mill24', },
 {36720, 'mill25', },
---]]
+{35701, 'Mill1A: Aged Stone Container?', 49.1,48.5},
+{36712, 'Mill1B: Aged Stone Container?', 49.1,48.5},
+{35952, 'Mill2: Aged Stone Container?', 49.1,48.5},
+{35982, 'Mill: Botani Essence Seed', 42.0,81.6},
+{36015, 'Mill: Mysterious Petrified Pod', 60.5,72.8},
+{35975, 'Mill: Remains of Explorer Engieer Toldirk Ashlamp', 46.0,93.6},
+
 
 -- open treasures
 {34147, 'grg1', },
@@ -321,26 +320,9 @@ grg = {
 {34218, 'grg23', },
 {37170, 'Femur of Improbability', },
 {35709, 'Laughing Skull Cache', },
-{36118, 'Pile of Rubble', },
---]]
-
---[[ known npcs
-{35335, 'Bashiok', 40.2,79.0},
-{36794, 'Sylldross', 63,62},
---]]
-
---[[ mill known treasures
-{35701, 'Mill1A: Aged Stone Container?', 49.1,48.5},
-{36712, 'Mill1B: Aged Stone Container?', 49.1,48.5},
-{35952, 'Mill2: Aged Stone Container?', 49.1,48.5},
-{35975, 'Mill: Remains of Explorer Engieer Toldirk Ashlamp', 46.0,93.6},
-{35982, 'Mill: Botani Essence Seed', 42.0,81.6},
-{36015, 'Mill: Mysterious Petrified Pod', 60.5,72.8},
---]]
-
---[[ open known treasures
 {34241, 'Ockbar\'s Pack', 43.0,93.0},
---]]
+{36118, 'Pile of Rubble', },
+
 }
 
 tld = {
@@ -389,9 +371,7 @@ tld = {
 {34205, 'Wandering Vindicator - loot', },
 {34140, 'Yuuri\'s Gift', },
 {33933, 'Deceptia\'s Smoldering Boots', },
---]]
 
---[[known npcs
 {34668, 'Burning Front rare demon (Talonpriest Zorka?)', 56.7,62.5},
 {35018, 'Felbark', 50.4,83.5},
 {34114, 'Four Friends found A', },
@@ -406,39 +386,12 @@ tld = {
 {34945, 'Underseer Bloodmane (Prize?)', 63.8,20.7},
 {34148, 'Viperlash', 37.6,74.9},
 {34135, 'Yazheera the Incinerator', 53.8,25.6},
---]]
 }
 
 soa = {
---unknown npcs
+-- npcs
 {36943, 'Gaze', },
 {36312, 'Sun Age Valarik', },
-
---unknown objects
-{36453, 'Coinbender\'s Payment', },
-{36459, 'Dislodged Saw Blade', },
-{35334, 'The Egg of Varasha', 29.6,41.6},
-{36381, 'Gift of Anzu', },
-{36386, 'Gift of Anzu (Crossbow)', },
-{36388, 'Gift of Anzu (Wand)', },
-{36389, 'Gift of Anzu (Mask)', },
-{36390, 'Gift of Anzu (Knife)', },
-{36392, 'Gift of Anzu (Axe)', },
-{36416, 'Misplaced Scroll', },
-{36405, 'Offering to the Raven Mother 02', },
-{36340, 'Ogron Plunder', },
-{36402, 'Orcish Signaling Horn', },
-{36446, 'Outcast\'s Pouch', 46.9,34.0},
-{36415, 'Reagent Pouch', },
-{36798, 'Rooby Roo', },
-{36375, 'Sethekk Idol', },
-{36450, 'Sethekk Ritual Brew', },
-{36361, 'Shattered Hand Lockbox', },
-{36374, 'Statue of Anzu', },
-{36424, 'Sun-Touched Cache C', },
-{36463, 'Taylor\'s Coffer Key (unused?)', },
-
---[[ known npcs
 {35599, 'Blade-Dancer Aeryx', 46.8,23.3},
 {36283, 'Blightglow', 65.2,67.8},
 {36291, 'Betsi Boombasket', 58.3,84.5},
@@ -463,9 +416,31 @@ soa = {
 {36472, 'Swarmleaf', 53.0,53.0},
 {36278, 'Talonbreaker', 54.6,63.2},
 {36254, 'Tesska the Broken', 57.3,74.1},
---]]
 
---[[ known objects
+-- objects
+{36453, 'Coinbender\'s Payment', },
+{36459, 'Dislodged Saw Blade', },
+{35334, 'The Egg of Varasha', 29.6,41.6},
+{36381, 'Gift of Anzu', },
+{36386, 'Gift of Anzu (Crossbow)', },
+{36388, 'Gift of Anzu (Wand)', },
+{36389, 'Gift of Anzu (Mask)', },
+{36390, 'Gift of Anzu (Knife)', },
+{36392, 'Gift of Anzu (Axe)', },
+{36416, 'Misplaced Scroll', 52,42},
+{36405, 'Offering to the Raven Mother 02', },
+{36340, 'Ogron Plunder', },
+{36402, 'Orcish Signaling Horn', },
+{36446, 'Outcast\'s Pouch', 46.9,34.0},
+{36415, 'Reagent Pouch', },
+{36798, 'Rooby Roo', },
+{36375, 'Sethekk Idol', },
+{36450, 'Sethekk Ritual Brew', },
+{36361, 'Shattered Hand Lockbox', },
+{36374, 'Statue of Anzu', },
+{36424, 'Sun-Touched Cache C', },
+{36463, 'Taylor\'s Coffer Key (unused?)', },
+
 {36458, 'Abandoned Mining Pick', 40.6,55.0},
 {36462, 'Admiral Taylor\'s Coffer', 36.2,54.5},
 {36445, 'Assassin\'s Spear', 49.2,37.2},
@@ -511,17 +486,16 @@ soa = {
 {36422, 'Sun-Touched Cache, upper level', 33.3,27.3},
 {36364, 'Toxicfang Venom', 54.4,32.5},
 {36455, 'Waterlogged Satchel', 66.5,56.6},
---]]
 }
 
 ngd = {
---unknown npcs
+--npcs
 {35778, 'Ancient Blademaster - TSH', },
 {35735, 'Berserk Shredder', },
 {36597, 'Berthora', },
 {35923, 'Hunter Blacktooth', },
 {34645, 'Warmaster Blugthol', },
-{35943, 'Duretha', },
+{35943, 'Outrider Duretha', },
 {35893, 'Flinthide', },
 {35153, 'Fungal Praetorian', },
 {35715, 'Gar\'lua the Wolfmother', },
@@ -533,27 +507,27 @@ ngd = {
 {35836, 'The Lunker', },
 {35875, 'Ophiis', },
 {36229, 'Mr. Pinchy Sr.', },
-{35712, 'Redclaw the Feral', },
+{35712, 'Redclaw the Feral', 73.5,58.1},
 {36600, 'Riptar', },
 {35623, 'Explorer Rixak', },
 {35900, 'Ru\'klaa', },
+{35932, 'Malroc Stonesunder', 81.0,59.8},
 {35920, 'Tur\'aka', },
 {35865, 'Void Ooze', },
 {35931, 'Warsong Scout', },
-{35932, 'Warsong Tactician', },
 {35912, 'Swindler Whitesea', },
 
---unknown events
+--events
 {34862, 'Light the Braziers', },
 
---unknown objects
-{35759, 'Abandoned Cargo', },
+--objects
+{35759, 'Abandoned Cargo', 67.7,59.7},
 {36072, 'Abu\'Gar\'s Favorite Lure', },
 {36089, 'Abu\'Gar\'s Reel', },
 {35711, 'Abu\'gar\'s Tenacity', },
 {36077, 'Adventurer\'s Mace', },
-{35969, 'Adventurer\'s Pack B', },
 {35597, 'Adventurer\'s Pack A', },
+{35969, 'Adventurer\'s Pack B', },
 {35765, 'Adventurer\'s Pack C', },
 {36050, 'Adventurer\'s Pouch A', },
 {36088, 'Adventurer\'s Pouch B', },
