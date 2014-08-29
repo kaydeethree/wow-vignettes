@@ -514,7 +514,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6722, 43, 36279, 118199, 'Poisonmaster Bortusk', 59.5,37.5},
 {false, 6722, 43, 36129, 116837, 'Nas Dunberlin', 36.3,52.6},
 {false, 6722, 43, 36303, 107457, 'Eyeless', 49.9,29.8},
-{false, 6722, 43, 36297, 118200, 'Festerbloom', 55.2,35.6},
+{false, 6722, 43, 36297, 118200, 'Festerbloom', 54.8,39.7},
 {false, 6722, 43, 36943, 118696, 'Gaze', 24.9,25.6},
 {false, 6722, 43, 36305, 116836, 'Gobblefin', 33.5,58.9},
 {false, 6722, 43, 36304, 107457, 'Gochar', 53.5,49.1},
@@ -528,13 +528,13 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6722, 43, 36478, 118201, 'Shadowbark', 51.9,35.5},
 {false, 6722, 43, 36267, 118198, 'Durkath Steelmaw', 46.4,28.5},
 {false, 6722, 43, 36265, 116858, 'Stonespite', 33.6,21.9},
-{false, 6722, 43, 36472, 116857, 'Swarmleaf', 53.0,53.0},
+{false, 6722, 43, 36472, 116857, 'Swarmleaf', 52.9,55.0},
 {false, 6722, 43, 36278, 116838, 'Talonbreaker', 54.6,63.2},
 {false, 6722, 43, 36254, 116852, 'Tesska the Broken', 57.3,74.1},
 
 -- Spires of Arak events
 {false, 6722, 44, 36276, 118203, 'Spawn of Sethe and Sangrikass', 68.8,48.9},
-{false, 6722, 44, 36298, 116855, 'Stingtail Nest and Sunderthorn', 58.5,45.1},
+{false, 6722, 44, 36298, 116855, 'Stingtail Nest and Sunderthorn', 59.0,45.1},
 {false, 6722, 44, 35334, 118207, 'The Egg of Varasha', 29.6,41.6},
 
 --Nagrand objects
