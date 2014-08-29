@@ -538,73 +538,78 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6722, 44, 35334, 118207, 'The Egg of Varasha', 29.6,41.6},
 
 --Nagrand objects
-----Nagrand objects
 {false, 6755, 42, 35759, 107457, 'Abandoned Cargo', 67.7,59.7},
 {false, 6755, 42, 36072, 114243, 'Abu\'Gar\'s Favorite Lure', },
 {false, 6755, 42, 36089, 114245, 'Abu\'Gar\'s Reel', },
 {false, 6755, 42, 35711, 114242, 'Abu\'gar\'s Tenacity', },
-{false, 6755, 42, 36077, 116635, 'Adventurer\'s Mace', 75.8,62},
-{false, 6755, 42, 35597, 0, 'Adventurer\'s Pack A', },
-{false, 6755, 42, 35969, 0, 'Adventurer\'s Pack B', },
-{false, 6755, 42, 35765, 0, 'Adventurer\'s Pack C', },
-{false, 6755, 42, 36050, 0, 'Adventurer\'s Pouch A', },
-{false, 6755, 42, 36088, 0, 'Adventurer\'s Pouch B', },
-{false, 6755, 42, 35955, 0, 'Adventurer\'s Sack', },
+{false, 6755, 42, 36077, 116635, 'Adventurer\'s Mace', 75.8,62.0},
+{false, 6755, 42, 35597, 0, 'Adventurer\'s Pack A', 70.0,52.4}, --4279
+{false, 6755, 42, 35969, 0, 'Adventurer\'s Pack B', 82.3,56.6}, --4303
+{false, 6755, 42, 35765, 0, 'Adventurer\'s Pack C', 45.6,52.0}, --4308
+{false, 6755, 42, 36050, 0, 'Adventurer\'s Pouch A', 56.6,72.9}, --4323
+{false, 6755, 42, 36088, 0, 'Adventurer\'s Pouch B', 53.4,64.3}, --4331
+{false, 6755, 42, 35955, 0, 'Adventurer\'s Sack', 73.9,14.0},
+{false, 6755, 42, 0, 0, 'Adventurer\'s Staff', 81.5,13.1}, --4305
 {false, 6755, 42, 35923, 0, 'Adventurer\'s Stash', },
-{false, 6755, 42, 35673, 0, 'Appropriated Warsong Supplies', },
-{false, 6755, 42, 36116, 0, 'Bag of Herbs', },
-{false, 6755, 42, 35986, 0, 'Bone-Carved Dagger', },
-{false, 6755, 42, 36174, 0, 'Bounty of the Elements', },
-{false, 6755, 42, 35696, 0, 'Burning Blade Cache', },
-{false, 6755, 42, 35661, 0, 'Dreamflower', },
-{false, 6755, 42, 36036, 0, 'Elemental Manacles', },
-{false, 6755, 42, 35954, 0, 'Elemental Offering', },
-{false, 6755, 42, 35692, 0, 'Freshwater Clam', },
-{false, 6755, 42, 35560, 0, 'Fungus-Covered Chest', },
-{false, 6755, 42, 36074, 0, 'Gambler\'s Purse', },
-{false, 6755, 42, 35987, 0, 'Genedar Debris A', },
-{false, 6755, 42, 35999, 0, 'Genedar Debris B', },
-{false, 6755, 42, 36002, 0, 'Genedar Debris C', },
-{false, 6755, 42, 36008, 0, 'Genedar Debris D', },
-{false, 6755, 42, 36011, 0, 'Genedar Debris E', },
+{false, 6755, 42, 0, 0, 'A Pile of Dirt', 73.1,10.8}, --4304
+{false, 6755, 42, 35673, 0, 'Appropriated Warsong Supplies', 73.1,75.5},
+{false, 6755, 42, 36116, 0, 'Bag of Herbs', 62.5,67.1},
+{false, 6755, 42, 35986, 0, 'Bone-Carved Dagger', 77.3,28.1},
+{false, 6755, 42, 36174, 0, 'Bounty of the Elements', 77.1,16.6},
+{false, 6755, 42, 35696, 0, 'Burning Blade Cache', 85.4,53.5},
+{false, 6755, 42, 35661, 0, 'Dreamflower', 81.1,37.3}, --brilliant dreampetal?
+{false, 6755, 42, 36036, 0, 'Elemental Shackles', 78.9,15.6},
+{false, 6755, 42, 35954, 0, 'Elemental Offering', 67.0,19.5},
+{false, 6755, 42, 36020, 117981, 'Fragment of Oshu\'gun', 45.9,66.3},
+{false, 6755, 42, 35692, 0, 'Freshwater Clam', 73.0,21.5},
+{false, 6755, 42, 35560, 0, 'Fungus-Covered Chest', 88.9,18.2},
+{false, 6755, 42, 36074, 0, 'Gambler\'s Purse', 75.3,47.1},
+{false, 6755, 42, 35987, 0, 'Genedar Debris A', 43.2,57.5}, --4311
+{false, 6755, 42, 35999, 0, 'Genedar Debris B', 48.1,60.1}, --4312
+{false, 6755, 42, 36002, 0, 'Genedar Debris C', 44.7,67.6}, --4313
+{false, 6755, 42, 36008, 0, 'Genedar Debris D', 48.6,72,8}, --4314
+{false, 6755, 42, 36011, 0, 'Genedar Debris E', 55.4,68.2}, --4315
 {false, 6755, 42, 36099, 0, 'Goblin Keg', },
-{false, 6755, 42, 35576, 0, 'Goblin Pack A', },
+{false, 6755, 42, 35576, 0, 'Goblin Pack A', 47.2,74.2},
 {false, 6755, 42, 35590, 0, 'Goblin Pack B', },
 {false, 6755, 42, 35951, 0, 'Goblin Stash', },
-{false, 6755, 42, 35694, 118266, 'Golden Kaliri Egg - TSH', },
-{false, 6755, 42, 36109, 0, 'Goldtoe\'s Plunder', },
-{false, 6755, 42, 36051, 0, 'Grizzlemaw\'s Favorite Bone', },
+{false, 6755, 42, 35694, 118266, 'Golden Kaliri Egg - TSH', 58.3,52.5},
+{false, 6755, 42, 36109, 0, 'Goldtoe\'s Plunder', 38.3,58.7},
+{false, 6755, 42, 36051, 0, 'Grizzlemaw\'s Favorite Bone', 87.1,72.9},
 {false, 6755, 42, 35622, 0, 'Hidden Stash', 87.6,45.0},
-{false, 6755, 42, 36082, 0, 'Lost Pendant', },
-{false, 6755, 42, 36052, 0, 'Misplaced Artifacts', },
-{false, 6755, 42, 35643, 0, 'Mountain Climber\'s Pack', },
+{false, 6755, 42, 0, 0, 'Highmaul Sledge', 67.4,49.1},
+{false, 6755, 42, 0, 0, 'Important Exploration Supplies', 75.2,65.6}, --4332
+{false, 6755, 42, 36082, 0, 'Lost Pendant', 61.8,57.5},
+{false, 6755, 42, 36052, 0, '"Misplaced" Artifacts', 66.7,47.8},
+{false, 6755, 42, 35643, 0, 'Mountain Climber\'s Pack', 70.5,13.9},
 {false, 6755, 42, 34581, 0, 'Mysterious Flower, Nagrand', },
-{false, 6755, 42, 36049, 0, 'Ogre Beads', },
+{false, 6755, 42, 36049, 0, 'Ogre Beads', 81.0,79.8},
 {false, 6755, 42, 36039, 0, 'Ogre Hammer', },
-{false, 6755, 42, 36020, 117981, 'Oshu\'gun Fragment', },
-{false, 6755, 42, 36115, 0, 'Pale Elixir', },
-{false, 6755, 42, 36021, 116688, 'Pokhar\'s Thirteenth Axe', },
-{false, 6755, 42, 36035, 0, 'Polished Sabron Skull', },
+{false, 6755, 42, 36115, 0, 'Pale Elixir', 57.8,62.0},
+{false, 6755, 42, 36021, 116688, 'Pokkar\'s Thirteenth Axe', 58.3,59.3},
+{false, 6755, 42, 36035, 0, 'Polished Sabron Skull', 72.7,60.9},
 {false, 6755, 42, 36102, 106733, 'Saberon Stash', 75.2,64.9},
 {false, 6755, 42, 37435, 0, 'Spirit Coffer', },
-{false, 6755, 42, 36846, 0, 'Spirit\'s Gift', },
-{false, 6755, 42, 36857, 0, 'Smuggler\'s Cache', },
-{false, 6755, 42, 35648, 0, 'Steamwheedle Supplies A', },
-{false, 6755, 42, 35646, 0, 'Steamwheedle Bupplies B', },
-{false, 6755, 42, 35616, 0, 'Steamwheedle Supplies C', },
-{false, 6755, 42, 35577, 0, 'Steamwheedle Supplies D', },
-{false, 6755, 42, 35583, 0, 'Steamwheedle Supplies E', },
-{false, 6755, 42, 35591, 0, 'Steamwheedle Supplies F', },
+{false, 6755, 42, 36846, 0, 'Spirit\'s Gift', 35.5,57.2},
+{false, 6755, 42, 36857, 0, 'Smuggler\'s Cache', 89.1,33.1},
+{false, 6755, 42, 35648, 0, 'Steamwheedle Supplies A', 50.1,82.2}, --4281
+{false, 6755, 42, 35646, 0, 'Steamwheedle Bupplies B', 77.8,51.9}, --4285
+{false, 6755, 42, 35616, 0, 'Steamwheedle Supplies C', 88.2,42.6}, --4287
+{false, 6755, 42, 35577, 0, 'Steamwheedle Supplies D', 70.6,18.6}, --4290
+{false, 6755, 42, 35583, 0, 'Steamwheedle Supplies E', 74.6,17.6}, --4291
+{false, 6755, 42, 35591, 0, 'Steamwheedle Supplies F', 87.6,20.3}, --4294
 {false, 6755, 42, 35662, 0, 'Steamwheedle Supplies G', },
-{false, 6755, 42, 36046, 0, 'Telaar Defender Shield', },
-{false, 6755, 42, 35579, 0, 'Void-Infused Crystal', },
-{false, 6755, 42, 35695, 0, 'Warsong Cache', },
-{false, 6755, 42, 36073, 118250, 'Warsong Helm', },
-{false, 6755, 42, 35678, 0, 'Warsong Lockbox', },
+{false, 6755, 42, 36046, 0, 'Telaar Defender Shield', 64.7,65.8},
+{false, 6755, 42, 34760, 0, 'Treausre of Kull\'krosh', 37.7,70.7},
+{false, 6755, 42, 35579, 0, 'Void-Infused Crystal', 50.0,66.5},
+{false, 6755, 42, 35695, 0, 'Warsong Cache', 51.7,60.3},
+{false, 6755, 42, 36073, 118250, 'Warsong Helm', 52.4,44.4},
+{false, 6755, 42, 35678, 0, 'Warsong Lockbox', 73.0,70.4},
 {false, 6755, 42, 35682, 118678, 'Warsong Spear', 76.1, 69.9},
-{false, 6755, 42, 35593, 0, 'Warsong Spoils', },
-{false, 6755, 42, 35976, 0, 'Warsong Supplies', },
+{false, 6755, 42, 35593, 0, 'Warsong Spoils', 80.6,60.5},
+{false, 6755, 42, 35976, 0, 'Warsong Supplies', 89.4,65.9},
 {false, 6755, 42, 36071, 0, 'Waterlogged Satchel', },
+{false, 6755, 42, 0, 0, 'Watertight Bag', 64.8,35.7}, --4326
 -- Nagrand NPCs
 {false, 6755, 43, 35778, 107457, 'Ancient Blademaster - TSH', },
 {false, 6755, 43, 35735, 107457, 'Berserk Shredder', },
@@ -760,7 +765,6 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 1, 42, 36467, 0, 'Treasure Map E', },
 {false, 1, 42, 36468, 0, 'Treasure Map F', },
 {false, 1, 42, 36053, 0, 'Unused Wood Pile', },
-{false, 1, 42, 34760, 0, 'Warchest of Kull\'krosh', },
 
 {false, 1, 43, 36902, 0, 'Aeda Brightdawn', },
 {false, 1, 43, 32911, 0, 'Ancient Clefthoof', },
