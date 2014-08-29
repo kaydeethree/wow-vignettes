@@ -596,7 +596,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 35646, 0, 'Steamwheedle Bupplies B', 77.8,51.9}, --4285
 {false, 6755, 42, 35616, 0, 'Steamwheedle Supplies C', 88.2,42.6}, --4287
 {false, 6755, 42, 35577, 0, 'Steamwheedle Supplies D', 70.6,18.6}, --4290
-{false, 6755, 42, 35583, 0, 'Steamwheedle Supplies E', 74.6,17.6}, --4291
+{false, 6755, 42, 35583, 0, 'Steamwheedle Supplies E', 64.6,17.6}, --4291
 {false, 6755, 42, 35591, 0, 'Steamwheedle Supplies F', 87.6,20.3}, --4294
 {false, 6755, 42, 35662, 0, 'Steamwheedle Supplies G', },
 {false, 6755, 42, 36046, 0, 'Telaar Defender Shield', 64.7,65.8},
@@ -612,36 +612,35 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 0, 0, 'Watertight Bag', 64.8,35.7}, --4326
 -- Nagrand NPCs
 {false, 6755, 43, 35778, 107457, 'Ancient Blademaster - TSH', },
-{false, 6755, 43, 35735, 107457, 'Berserk Shredder', },
 {false, 6755, 43, 35923, 118245, 'Hunter Blacktooth', 80.6,30.4},
+{false, 6755, 43, 37399, -823, 'Karosh Blackwind', 45.9, 34.8},
+{false, 6755, 43, 35735, 107457, 'Berserk Shredder', },
 {false, 6755, 43, 34645, 116805, 'Warmaster Blugthol', 82.8,76.0},
 {false, 6755, 43, 35943, 116800, 'Outrider Duretha', 61.9,68.7},
 {false, 6755, 43, 35893, 116807, 'Flinthide', 69.8,41.9},
 {false, 6755, 43, 35715, 118246, 'Gar\'lua the Wolfmother', 52.2,55.8},
+{false, 6755, 43, 34725, 116798, 'Gaz\'orda', 43.8,77.7}, -- cave entrance at 42.2,78.6
 {false, 6755, 43, 35717, 116824, 'Gnarlhoof the Rabid', 66.7,56.3},
 {false, 6755, 43, 36159, 107457, 'Graveltooth', 84.1,36.8},
 {false, 6755, 43, 35898, 107457, 'Gorepetal', },
 {false, 6755, 43, 35714, 107457, 'Greatfeather', 66.7,51.3},
+{false, 6755, 43, 37400, -823, 'Brutag Grimblade', 43.2, 36.3},
+{false, 6755, 43, 35784, 118687, 'Grizzlemaw', 86.2,71.4},
+{false, 6755, 43, 34727, {116809, 118244}, 'Captain Ironbeard', 34.4,76.8},
 {false, 6755, 43, 35877, 116808, 'Windcaller Korast', 70.6,29.2},
 {false, 6755, 43, 35836, 107457, 'The Lunker', },
+{false, 6755, 43, 35865, 116815, 'Netherspawn', 47.6,70.7},
+{false, 6755, 43, 35623, 118679, 'Explorer Nozzand', 89,41},
 {false, 6755, 43, 35875, 116765, 'Ophiis', 42.8,49.2},
-{false, 6755, 43, 36229, 118690, 'Mr. Pinchy Sr.', 45.65,15.1},
+{false, 6755, 43, 36229, 118690, 'Mr. Pinchy Sr.', 45.7,15.1},
+{false, 6755, 43, 35931, 116797, 'Scout Pokhar', 54.8,61.2},
 {false, 6755, 43, 35712, 118243, 'Redclaw the Feral', 73.5,58.1},
 {false, 6755, 43, 35623, 107457, 'Explorer Rixak', },
 {false, 6755, 43, 35900, 107457, 'Ru\'klaa', 57.8,83.7},
+{false, 6755, 43, 36128, {116806, 111557}, 'Soulfang', 75.5,65.4},
 {false, 6755, 43, 35932, 116796, 'Malroc Stonesunder', 81.0,59.8},
 {false, 6755, 43, 35920, 116814, 'Tur\'aka', 64.8,39.1},
-{false, 6755, 43, 35865, 116815, 'Void Ooze/Netherspawn?', 47.6,70.7},
-{false, 6755, 43, 35931, 116797, 'Scout Pokhar', 54.8,61.2},
 {false, 6755, 43, 35912, 107457, 'Swindler Whitesea', },
-{false, 6755, 43, 37399, -823, 'Karosh Blackwind', 45.9, 34.8},
-{false, 6755, 43, 37400, -823, 'Brutag Grimblade', 43.2, 36.3},
-{false, 6755, 43, 34727, {116809, 118244}, 'Captain Ironbeard', 34.4,76.8},
-{false, 6755, 43, 34725, 116798, 'Gaz\'orda', 43.8,77.7}, -- cave entrance at 42.2,78.6
-{false, 6755, 43, 35623, 118679, 'Explorer Nozzand', 89,41},
-{false, 6755, 43, 35784, 118687, 'Grizzlemaw', 86.2,71.4},
-{false, 6755, 43, 35920, 116814, 'Tura\'aka', 64.9,39.1},
-{false, 6755, 43, 36128, {116806, 111557}, 'Soulfang', 75.5,65.4},
 
 --Nagrand events
 {false, 6755, 44, 34862, 116799, 'Light the Braziers', 86.7,55.5}, -- summons "hyperious" 78161
