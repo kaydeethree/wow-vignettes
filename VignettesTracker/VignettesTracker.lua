@@ -105,10 +105,12 @@ zones = {
 
 vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, yCoord}
 -- Frostfire Ridge objects
-{false, 6720, 42, 33916, 108735, 'Arena Master\'s War Horn', 23.2,25.0},
+{false, 6720, 42, 33916, 108735, 'Arena Master\'s War Horn', 23.2,25.0}, --3 vignettes? 3105, 3204, 3800. 3800 not at same spot
 {false, 6720, 42, 34520, 107457, 'Burning Pearl', 42.4,19.6}, -- Treasure Placeholder
-{false, 6720, 42, 33940, 112187, 'Crag-Leaper\'s Cache', 42.7,31.8},
+{false, 6720, 42, 33940, 112187, 'Crag-Leaper\'s Cache', 42.7,31.8}, 
 {false, 6720, 42, 33531, 112096, 'Clumsy Cragmaul Brute', 50.2,18.7},
+{false, 6720, 42, 0, 0, 'Cragmaul Cache', }, --3799: 7574.6,5080.9
+{false, 6720, 42, 0, 0, 'Doorog\'s Secret Stash', }, --3830: 6665.0,5879.5
 {false, 6720, 42, 34473, 110536, 'Envoy\'s Satchel', 40.9,20.1},
 {false, 6720, 42, 34841, -824, 'Forgotten Supplies', 43.7,55.6},
 {false, 6720, 42, 34968, -824, 'Forgotten Supplies', 43.7,55.6},
@@ -181,14 +183,15 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6720, 44, 33511, 112110, 'Sacrifice Pit (Borrok the Devourer)', 62.8,42.4},
 
 -- Shadowmoon Valley objects
--- darktide roost - smallest of three islands - scaly rylak egg - aged yolk
+
 {false, 6719, 42, 35581, 109124, 'Alchemist\'s Satchel', 54.9,45.0},
 {false, 6719, 42, 35584, 113560, 'Ancestral Greataxe', 52.8,48.4},
 {false, 6719, 42, 33869, 108902, 'Armored Elekk Tusk', 41.4,27.9},
 {false, 6719, 42, 33584, 113531, 'Ashes of A\'kumbo', 37.8,44.3},
 {false, 6719, 42, 33867, 109739, 'Astrologer\'s Box', 49.3,37.6},
 {false, 6719, 42, 33046, 113547, 'Beloved\'s Offering', 36.8,41.4},
-{false, 6719, 42, 33613, 108945, 'Bubbling Cauldron',37.2,23.1 },
+{false, 6719, 42, 33613, 108945, 'Bubbling Cauldron', 37.2,23.1},
+{false, 6719, 42, 0, 0, 'Cargo of the Raven Queen', },
 {false, 6719, 42, 33569, 113545, 'Carved Dinking Horn', 33.5,39.6},
 {false, 6719, 42, 33575, 108904, 'Demonic Cache', 20.4,30.6},
 {false, 6719, 42, 34174, -824, 'Fantastic Fish', 26.5,5.7},
@@ -215,6 +218,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6719, 42, 33886, 109081, 'Ronokk\'s Belongings', 31.3,39.1},
 {false, 6719, 42, 33572, 113373, 'Rotting Basket', 22.9,33.8},
 {false, 6719, 42, 33573, 113378, 'Rovo\'s Dagger', 36.7,44.5},
+{false, 6719, 42, 0, 0, 'Scaly Rylak Egg', }, -- darktide roost - smallest of three islands - scaly rylak egg - aged yolk
 {false, 6719, 42, 33570, 113388, 'Shadowmoon Exile Treasure', 45.8,24.6},
 {false, 6719, 42, 33571, 113563, 'Shadowmoon Sacrifical Dagger', 30.0,45.4},
 {false, 6719, 42, 33571, -824, 'Shadowmoon Treasure', 28.2,39.3},
@@ -374,6 +378,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6662, 42, 34236, 116131, 'Amethyl Crystal', 62.1,32.4},
 {false, 6662, 42, 34260, 109118, 'Aruuna Mining Cart', 81.8,34.9},
 {false, 6662, 42, 34252, -824, 'Barrel of Fish', 62.4,48.0},
+{false, 6662, 42, 34471, 0, 'Bright Coin', },
 {false, 6662, 42, 34259, 107457, 'Bonechewer Remnants', 33.3,76.8},
 {false, 6662, 42, 34248, 116116, 'Charred Sword', 77.0,49.9}, 
 {false, 6662, 42, 34239, 117569, 'Curious Deathweb Egg', 66.5,86.9},
@@ -381,6 +386,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6662, 42, 33933, 108743, 'Deceptia\'s Smoldering Boots', 58.1,12.1},
 {false, 6662, 42, 34253, 116118, 'Draenei Weapons', 55.3,66.7},
 {false, 6662, 42, 34249, -824, 'Farmer\'s Bounty', 35.4,96.6},
+{false, 6662, 42, 34238, 0, 'Foreman\'s Lunchbox', },
 {false, 6662, 42, 36829, 107457, 'Gift of the Ancients', 28.4,74.2},
 {false, 6662, 42, 34251, 117571, 'Iron Box', 64.6,79.2},
 {false, 6662, 42, 33649, -824, 'Iron Scout', 75.1,36.1},
@@ -399,8 +405,8 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6662, 42, 34254, 117570, 'Soulbinder\'s Reliquary', 39.5,55.1},
 {false, 6662, 42, 35162, 112699, 'Teroclaw Nest', },
 {false, 6662, 42, 34257, 116119, 'Treasure of Ango\'rosh', 38.3,84.5},
-{false, 6662, 42, 34140, 107457, 'Yuuri\'s Gift', }, --next to road west of telmor after taking yuuri's quest in tomb of lights
 {false, 6662, 42, 34255, 116129, 'Webbed Sac', 65.4,88.6}, 
+{false, 6662, 42, 34140, 107457, 'Yuuri\'s Gift', }, --next to road west of telmor after taking yuuri's quest in tomb of lights
 
 --Talador NPCs
 {false, 6662, 43, 34668, 116122, 'Burning Front rare demon', 56.7,62.5},
@@ -677,7 +683,6 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 1, 42, 36854, 0, 'Burning Missive F', },
 {false, 1, 42, 36855, 0, 'Burning Missive G', },
 {false, 1, 42, 36856, 0, 'Burning Missive H', },
-{false, 1, 42, 34471, 0, 'Bright Coin', },
 {false, 1, 42, 33565, 0, 'Chimaera Scale', },
 {false, 1, 42, 36604, 0, 'Dark Iron Emergency Pack', },
 {false, 1, 42, 36625, 0, 'Discarded Pack', },
@@ -686,7 +691,6 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 1, 42, 34581, 0, 'Draenor Flowerpicker Note Found', },
 {false, 1, 42, 36879, 0, 'Dusty Lockbox', },
 {false, 1, 42, 37170, 0, 'Femur of Improbability', },
-{false, 1, 42, 34238, 0, 'Foreman\'s Lunchbox', },
 {false, 1, 42, 33925, 0, 'Frostwolf Cache 01', },
 {false, 1, 42, 33945, 0, 'Frostwolf Cache 03', },
 {false, 1, 42, 33949, 0, 'Frostwolf Cache 07', },
