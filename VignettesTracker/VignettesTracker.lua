@@ -464,7 +464,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6662, 44, 37342, -823, 'Legion Vanguard', 38.0,20.8},
 {false, 6662, 43, 37349, -823, 'Matron of Sin', 38.8,49.8},
 {false, 6662, 43, 37350, -823, 'Vigilant Paarthos', 37.3,42.4},
-{false, 6662, 43, 0, -823, 'Sargerei War Council', 43,7,27.4},
+{false, 6662, 43, 0, -823, 'Sargerei War Council', 43.7,27.4},
 {false, 6662, 43, 37347, -823, 'Shadowflame Terrorwalker', 41.0,42.1},
 {false, 6662, 43, 37343, -823, 'Xothear, the Destroyer', 37.6,14.7},
 
@@ -582,27 +582,30 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 --Nagrand objects
 {false, 6755, 42, 35759, 107457, 'Abandoned Cargo', 67.7,59.7},
 {false, 6755, 42, 35836, 116836, 'Abandoned Fishing Rod', 75.3,10.9}, -- Spawns "Fangler" fish 82975
+{false, 6755, 42, 36072, 114243, 'Abu\'Gar\'s Favorite Lure', 38.3,49.4}, -- Quest item
+{false, 6755, 42, 36089, 114245, 'Abu\'Gar\'s Finest Reel', 85.4,38.7}, -- Quest item
+{false, 6755, 42, 35711, 114242, 'Abu\'gar\'s Vitality', 65.8,61.1}, -- Quest item
 {false, 6755, 42, 36077, 116635, 'Adventurer\'s Mace', 75.8,62.0},
 {false, 6755, 42, 35597, 0, 'Adventurer\'s Pack A', 70.0,52.4}, --4279
 {false, 6755, 42, 35969, 0, 'Adventurer\'s Pack B', 82.3,56.6}, --4303
 {false, 6755, 42, 35765, 0, 'Adventurer\'s Pack C', 45.6,52.0}, --4308
 {false, 6755, 42, 36050, 0, 'Adventurer\'s Pouch A', 56.6,72.9}, --4323
 {false, 6755, 42, 36088, 0, 'Adventurer\'s Pouch B', 53.4,64.3}, --4331
-{false, 6755, 42, 35955, 0, 'Adventurer\'s Sack', 73.9,14.0},
+{false, 6755, 42, 35955, 116723, 'Adventurer\'s Sack', 73.9,14.0},
 {false, 6755, 42, 35923, 0, 'Adventurer\'s Staff', 81.5,13.1}, --4305
 {false, 6755, 42, 35951, -824, 'A Pile of Dirt', 73.1,10.8},
 {false, 6755, 42, 35673, 0, 'Appropriated Warsong Supplies', 73.1,75.5},
 {false, 6755, 42, 36116, 0, 'Bag of Herbs', 62.5,67.1},
-{false, 6755, 42, 35986, 0, 'Bone-Carved Dagger', 77.3,28.1},
+{false, 6755, 42, 35986, 116760, 'Bone-Carved Dagger', 77.3,28.1},
 {false, 6755, 42, 36174, 0, 'Bounty of the Elements', 77.1,16.6},
-{false, 6755, 42, 35661, 0, 'Brilliant Dreampetal', 81.1,37.3}, --dreamflower
-{false, 6755, 42, 35696, 0, 'Burning Blade Cache', 85.4,53.5},
+{false, 6755, 42, 35661, 118262, 'Brilliant Dreampetal', 81.1,37.3}, --dreamflower
+{false, 6755, 42, 35696, 0, 'Burning Blade Cache', 85.4,53.5}, -- Can't be looted?
 {false, 6755, 42, 35954, 0, 'Elemental Offering', 67.0,19.5},
 {false, 6755, 42, 36036, 0, 'Elemental Shackles', 78.9,15.6},
 {false, 6755, 42, 36020, 117981, 'Fragment of Oshu\'gun', 45.9,66.3},
 {false, 6755, 42, 35692, 0, 'Freshwater Clam', 73.0,21.5},
 {false, 6755, 42, 35560, 0, 'Fungus-Covered Chest', 88.9,18.2},
-{false, 6755, 42, 36074, 0, 'Gambler\'s Purse', 75.3,47.1},
+{false, 6755, 42, 36074, 118236, 'Gambler\'s Purse', 75.3,47.1},
 {false, 6755, 42, 35987, 0, 'Genedar Debris A', 43.2,57.5}, --4311
 {false, 6755, 42, 35999, 0, 'Genedar Debris B', 48.1,60.1}, --4312
 {false, 6755, 42, 36002, 0, 'Genedar Debris C', 44.7,67.6}, --4313
@@ -616,14 +619,14 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 35622, 0, 'Hidden Stash', 87.6,45.0},
 {false, 6755, 42, 36039, 0, 'Highmaul Sledge', 67.4,49.1}, --ogre hammer
 {false, 6755, 42, 36099, 0, 'Important Exploration Supplies', 75.2,65.6}, --4332
-{false, 6755, 42, 36082, 0, 'Lost Pendant', 61.8,57.5},
-{false, 6755, 42, 36052, 0, '"Misplaced" Artifacts', 66.7,47.8},
+{false, 6755, 42, 36082, 116687, 'Lost Pendant', 61.8,57.5},
+{false, 6755, 42, 36052, 0, '"Misplaced" Artifacts', 66.7,47.8}, -- Can't be looted?
 {false, 6755, 42, 35643, 0, 'Mountain Climber\'s Pack', 70.5,13.9},
 {false, 6755, 42, 34581, 0, 'Mysterious Flower, Nagrand', },
 {false, 6755, 42, 36049, 0, 'Ogre Beads', 81.0,79.8},
-{false, 6755, 42, 36115, 0, 'Pale Elixir', 57.8,62.0},
+{false, 6755, 42, 36115, 118278, 'Pale Elixir', 57.8,62.0},
 {false, 6755, 42, 36021, 116688, 'Pokkar\'s Thirteenth Axe', 58.3,59.3},
-{false, 6755, 42, 36035, 0, 'Polished Sabron Skull', 72.7,60.9},
+{false, 6755, 42, 36035, 118254, 'Polished Sabron Skull', 72.7,60.9},
 {false, 6755, 42, 36102, 106733, 'Saberon Stash', 75.2,64.9},
 {false, 6755, 42, 36857, 0, 'Smuggler\'s Cache', 89.1,33.1},
 {false, 6755, 42, 36846, 0, 'Spirit\'s Gift', 35.5,57.2},
@@ -636,18 +639,18 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 35662, 0, 'Steamwheedle Supplies G', 87.6,20.3},
 {false, 6755, 42, 36046, 0, 'Telaar Defender Shield', 64.7,65.8},
 {false, 6755, 42, 34760, 0, 'Treausre of Kull\'krosh', 37.7,70.7},
-{false, 6755, 42, 35579, 0, 'Void-Infused Crystal', 50.0,66.5},
+{false, 6755, 42, 35579, 118264, 'Void-Infused Crystal', 50.0,66.5},
 {false, 6755, 42, 35695, 0, 'Warsong Cache', 51.7,60.3},
 {false, 6755, 42, 36073, 118250, 'Warsong Helm', 52.4,44.4},
 {false, 6755, 42, 35678, 0, 'Warsong Lockbox', 73.0,70.4},
 {false, 6755, 42, 35682, 118678, 'Warsong Spear', 76.1, 69.9},
 {false, 6755, 42, 35593, 0, 'Warsong Spoils', 80.6,60.5},
 {false, 6755, 42, 35976, 0, 'Warsong Supplies', 89.4,65.9},
-{false, 6755, 42, 36071, 0, 'Watertight Bag', 64.8,35.7}, --waterlogged satchel?
+{false, 6755, 42, 36071, 118235, 'Watertight Bag', 64.8,35.7},
 
 -- Nagrand NPCs
-{false, 6755, 43, 35778, 107457, 'Ancient Blademaster - TSH', },
-{false, 6755, 43, 35735, 107457, 'Berserk Shredder', },
+{false, 6755, 43, 35778, 116832, 'Ancient Blademaster - TSH', 84.7,53.6}, -- Spawned from Blademaster Sword
+{false, 6755, 43, 35735, 116823, 'Berserk Shredder', 77.0,64.4}, -- Activate "Goblin Explosive Plunger" to enter the cave
 {false, 6755, 43, 35923, 118245, 'Hunter Blacktooth', 80.6,30.4},
 {false, 6755, 43, 37399, -823, 'Karosh Blackwind', 45.9, 34.8},
 {false, 6755, 43, 34645, 116805, 'Warmaster Blugthol', 82.8,76.0},
@@ -656,9 +659,9 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 43, 35715, 118246, 'Gar\'lua the Wolfmother', 52.2,55.8},
 {false, 6755, 43, 34725, 116798, 'Gaz\'orda', 43.8,77.7}, -- cave entrance at 42.2,78.6
 {false, 6755, 43, 35717, 116824, 'Gnarlhoof the Rabid', 66.7,56.3},
-{false, 6755, 43, 36159, 107457, 'Graveltooth', 84.1,36.8},
-{false, 6755, 43, 35898, 107457, 'Gorepetal', },
-{false, 6755, 43, 35714, 107457, 'Greatfeather', 66.7,51.3},
+{false, 6755, 43, 36159, 118689, 'Graveltooth', 84.1,36.8},
+{false, 6755, 43, 35898, 116916, 'Gorepetal', 94.1,26.5}, -- Spawns from a Pristine Lily in a cave? (i couldn't access the cave, it was blocked)
+{false, 6755, 43, 35714, 116795, 'Greatfeather', 66.7,51.3},
 {false, 6755, 43, 37400, -823, 'Brutag Grimblade', 43.2, 36.3},
 {false, 6755, 43, 35784, 118687, 'Grizzlemaw', 86.2,71.4},
 {false, 6755, 43, 34727, {116809, 118244}, 'Captain Ironbeard', 34.4,76.8},
@@ -669,15 +672,25 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 43, 36229, 118690, 'Mr. Pinchy Sr.', 45.7,15.1},
 {false, 6755, 43, 35931, 116797, 'Scout Pokhar', 54.8,61.2},
 {false, 6755, 43, 35712, 118243, 'Redclaw the Feral', 73.5,58.1},
-{false, 6755, 43, 35623, 107457, 'Explorer Rixak', },
-{false, 6755, 43, 35900, 107457, 'Ru\'klaa', 57.8,83.7},
+--{false, 6755, 43, 35623, 107457, 'Explorer Rixak', }, -- this is explorer nozzand
+{false, 6755, 43, 35900, 118688, 'Ru\'klaa', 58.0,84.0},
 {false, 6755, 43, 36128, {116806, 111557}, 'Soulfang', 75.5,65.4},
 {false, 6755, 43, 35932, 116796, 'Malroc Stonesunder', 81.0,59.8},
 {false, 6755, 43, 35920, 116814, 'Tur\'aka', 64.8,39.1},
-{false, 6755, 43, 35912, 107457, 'Swindler Whitesea', },
+{false, 6755, 43, 35912, 116834, 'Swindler Whitesea', 60.9,47.7}, -- "Sean Whitesea" 83542, spawns from Abandoned Chest with 2 Highwaymen 83556
+
+{false, 6755, 43, 37408, -823, 'Lernaea', 51.0,86.0}, -- Rare World Boss with 43 million health
 
 --Nagrand events
 {false, 6755, 44, 34862, 116799, 'Light the Braziers', 86.7,55.5}, -- summons "hyperious" 78161
+-- Not real events, but I wanted to mark the gliders on the map, you need them to get to a lot of objects
+{false, 6755, 44, 0, 0, 'SW Steamwheedle Exploration Glider', 58.5,76.3}, -- Access from the ground via rocket, path starts from 59.9,67.2
+{false, 6755, 44, 0, 0, 'SE1 Steamwheedle Exploration Glider', 76.2,73.0}, -- Accessed from the east
+{false, 6755, 44, 0, 0, 'SE2 Steamwheedle Exploration Glider', 75.7,64.7}, -- Accessed from the same area as above Glider
+{false, 6755, 44, 0, 0, 'NE1 Steamwheedle Exploration Glider', 87.3,41.0}, -- Glider path starts at 85.4,51.3
+{false, 6755, 44, 0, 0, 'NE2 Steamwheedle Exploration Glider',  83.8,33.7},
+-- Elemental Plateau accessed frmo the ground via path at 82.1,31.3
+{false, 6755, 44, 0, 0, 'NW Steamwheedle Exploration Glider', 72.3,12.9}, -- You have to jump to platforms marked by checkered flags from the elemental plateau waterfall, actual glider at 67.6,14.2
 
 --Unknown location/unused vignettes
 
