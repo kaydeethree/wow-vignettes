@@ -566,7 +566,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6722, 43, 36479, 107457, 'Nightmaw', 49.3,37.5},
 {false, 6722, 43, 36288, 118204, 'Oskiira the Vengeful', 64.9,54.4},
 {false, 6722, 43, 36887, 118279, 'Hermit Palefur', 59.3,14.8},
-{false, 6722, 43, 36470, 118107, 'A Strange Mushroom and Rotcap', 38.4,27.8},
+{false, 6722, 43, 36470, 118107, 'Rotcap', 38.4,27.8},
 {false, 6722, 43, 36478, 118201, 'Shadowbark', 51.9,35.5},
 {false, 6722, 43, 36267, 118198, 'Durkath Steelmaw', 46.4,28.5},
 {false, 6722, 43, 36265, 116858, 'Stonespite', 33.6,21.9},
@@ -604,7 +604,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 36036, 0, 'Elemental Shackles', 78.9,15.6},
 {false, 6755, 42, 36020, 117981, 'Fragment of Oshu\'gun', 45.9,66.3},
 {false, 6755, 42, 35692, 0, 'Freshwater Clam', 73.0,21.5},
-{false, 6755, 42, 35560, 0, 'Fungus-Covered Chest', 88.9,18.2},
+{false, 6755, 42, 35660, 0, 'Fungus-Covered Chest', 88.9,18.2},
 {false, 6755, 42, 36074, 118236, 'Gambler\'s Purse', 75.3,47.1},
 {false, 6755, 42, 35987, 0, 'Genedar Debris A', 43.2,57.5}, --4311
 {false, 6755, 42, 35999, 0, 'Genedar Debris B', 48.1,60.1}, --4312
@@ -629,6 +629,7 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 6755, 42, 36035, 118254, 'Polished Sabron Skull', 72.7,60.9},
 {false, 6755, 42, 36102, 106733, 'Saberon Stash', 75.2,64.9},
 {false, 6755, 42, 36857, 0, 'Smuggler\'s Cache', 89.1,33.1},
+{false, 6755, 42, 37435, 0, 'Spirit Coffer', 40.4,68.5},
 {false, 6755, 42, 36846, 0, 'Spirit\'s Gift', 35.5,57.2},
 {false, 6755, 42, 35577, 0, 'Steamwheedle Supplies A', 50.1,82.3},
 {false, 6755, 42, 35583, 0, 'Steamwheedle Supplies B', 52.7,80.1},
@@ -764,7 +765,6 @@ vignettes = { -- {found, zone, icon, questID, itemID, 'Vignette name', xCoord, y
 {false, 1, 42, 36375, 0, 'Sethekk Idol', },
 {false, 1, 42, 33883, 0, 'Shadowmoon Treasure #2', },
 {false, 1, 42, 34207, 0, 'Sparkling Pool', },
-{false, 1, 42, 37435, 0, 'Spirit Coffer', },
 {false, 1, 42, 36374, 0, 'Statue of Anzu', },
 {false, 1, 42, 37249, 0, 'Strange Spore B', },
 {false, 1, 42, 36424, 0, 'Sun-Touched Cache C', },
